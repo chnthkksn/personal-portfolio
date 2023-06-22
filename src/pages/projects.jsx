@@ -46,7 +46,7 @@ function Projects() {
       description: 'My portfolio website. Made with React and Tailwind CSS.',
       tags: ['React.js'],
       image: 'https://picsum.photos/200/300',
-      link: '
+      link: 'https://github.com/chnthkksn/imdb-api'
     }
   ]
 
