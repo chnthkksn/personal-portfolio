@@ -10,43 +10,37 @@ function Projects() {
       name: 'IMDB Api',
       description: 'Simple python web scraper to scrape IMDB. This tool can get the following information',
       tags: ['Python', 'API'],
-      image: 'https://picsum.photos/200/300',
       link: 'https://github.com/chnthkksn/imdb-api'
     },
     {
       name: 'Usage-Monitor',
       description: 'VPN Usage monitor for cliets and owner. X-UI usage monitor / Multi server support.',
       tags: ['Node.js'],
-      image: 'https://picsum.photos/200/300',
       link: 'https://github.com/chnthkksn/X-UI-Usage-Monitor'
     },
     {
       name: 'Scikit NLTK',
       description: 'Terror Tweet Detector using Scikit and NLTK. Flask API for the model. ',
       tags: ['Python', 'API'],
-      image: 'https://picsum.photos/200/300',
       link: 'https://github.com/chnthkksn/terror-tweet-detector'
     },
     {
       name: 'Subweb',
       description: 'Utility to convert between various subscription format. Ex- You can convert vmess to clash configs.',
       tags: ['React.js', 'Node.js'],
-      image: 'https://picsum.photos/200/300',
       link: 'https://github.com/chnthkksn/SubWeb'
     },
     {
       name: 'YTBuddy',
       description: 'Download youtube videos in various formats and qualities. Clip videos and download them.',
       tags: ['React.js', 'Node.js'],
-      image: 'https://picsum.photos/200/300',
       link: 'https://github.com/chnthkksn/YTBuddy-V0.1'
     },
     {
       name: 'Portfolio',
       description: 'My portfolio website. Made with React and Tailwind CSS.',
       tags: ['React.js'],
-      image: 'https://picsum.photos/200/300',
-      link: 'https://github.com/chnthkksn/imdb-api'
+      link: 'https://github.com/chnthkksn/personal-portfolio'
     }
   ]
 
