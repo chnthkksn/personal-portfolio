@@ -4,9 +4,9 @@ import { BsCalendarDate } from "react-icons/bs";
 
 function education() {
   return (
-    <div className="h-[100vh] flex flex-col justify-center items-center  dark:bg-black" id='education'>
+    <div className="pt-28 flex flex-col justify-center items-center  dark:bg-black" id='education'>
       <h1 className="text-2xl lg:text-3xl text-center font-bold text-gray-500 dark:text-gray-400 mb-8 uppercase tracking-widest">Education</h1>
-      <div className='w-[70vw] md:w-[90vw] rounded-md bg-white dark:bg-gray-900 py-8'>
+      <div className='w-[70vw] md:w-[90vw] rounded-md bg-white dark:bg-gray-900 py-8 shadow-md'>
         <Timeline
           mode="alternate"
           pending="Learning..."

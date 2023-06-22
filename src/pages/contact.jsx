@@ -3,9 +3,9 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaTelegram, FaTwitter } from 'react-i
 
 function contact() {
   return (
-    <div className="h-[100vh] flex flex-col justify-center items-center  dark:bg-black" id='contact'>
-      <h1 className="text-2xl lg:text-3xl text-center font-bold text-gray-500 dark:text-gray-400 mb-8 uppercase tracking-widest">Contact</h1>
-      <div className="flex flex-row md:flex-col md:gap-8 bg-white dark:bg-gray-900 py-24 md:py-5 w-[70vw] md:w-[90vw] rounded-md">
+    <div className="pt-28 pb-28 flex flex-col justify-center items-center  dark:bg-black" id='contact'>
+      <h1 className="text-2xl lg:text-3xl text-center font-bold text-gray-500 dark:text-gray-400 mb-8 uppercase tracking-widest ">Contact</h1>
+      <div className=" shadow-md flex flex-row md:flex-col md:gap-8 bg-white dark:bg-gray-900 py-24 md:py-5 w-[70vw] md:w-[90vw] rounded-md">
         <div className='flex flex-col w-[49vw] md:w-full items-center justify-center gap-10'>
           <ul className="flex flex-wrap md:w-[70%] gap-5 justify-center text-blue-500 text-xl">
             <li className="hover:text-blue-600 rounded-md items-center justify-center bg-gray-200 dark:bg-gray-700 hover:scale-110 w-16 h-16"> <a className='flex w-16 h-16 items-center justify-center' href="https://github.com/chnthkksn" target="_blank" rel="noreferrer"> <FaGithub /> </a> </li>

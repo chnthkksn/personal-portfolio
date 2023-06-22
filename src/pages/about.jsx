@@ -10,7 +10,7 @@ function About() {
     <div className="h-[100vh] flex justify-center items-center  dark:bg-black" id="about">
       <div className="flex flex-col justify-center bg-white dark:bg-gray-900 p-[2.5rem] md:p-[2rem] rounded-lg shadow-lg w-[70vw] md:w-[85vw] min-h-[50vh]">
         <div className="block bg-white dark:bg-gray-900 rounded-full mx-auto -mt-12 md:-mt-20 lg:-mt-24 h-32 w-32 lg:h-40 lg:w-40 bg-cover bg-center border-4 border-blue-200">
-          <img src="https://avatars.githubusercontent.com/u/47731399" alt="github_image" className=" rounded-full w-[10rem]"/>
+          <img src="https://avatars.githubusercontent.com/u/47731399" alt="github_image" className=" rounded-full w-[10rem]" />
         </div>
         <h1 className="p-3 text-2xl lg:text-3xl text-center text-gray-600 dark:text-gray-200 uppercase">Chinthaka Kasun</h1>
         <div className="flex flex-col gap-4">
@@ -23,7 +23,8 @@ function About() {
             /> </p>
           <p className="flex dark:text-gray-400 items-center gap-2"> <GoLocation /> Ginigathena, Sri Lanka </p>
           <p className="leading-relaxed text-gray-600 dark:text-gray-300 text-justify text-sm">
-            Dynamic, detail-oriented Software Engineer with over 4 years of experience in the industry. Skilled in a variety of programming languages, including PHP, Laravel, JavaScript, and Node.js. Proficient in agile development methodologies and experienced in the full software development lifecycle. Hold a Bachelor's degree in Computer Science from AIUB. Maintain several open source projects.
+            Dynamic, detail-oriented Software Developer Skilled in a variety of programming languages including Python, JavaScript, and Node.js. With a solid foundation in logic and development, I possess extensive knowledge of programming and computer applications.
+            Undergraduate of Rajarata University of Sri Lanka, Faculty of Technology Department of Information and Communication Technology. BICT (Hons) Degree.
           </p>
           <div className="flex gap-3 md:justify-around">
             <button className="rounded-full dark:bg-blue-800 bg-blue-600 px-3 py-2 w-fit text-sm text-white dark:text-gray-300 md:place-self-center hover:bg-blue-900" onClick={() => { Scroll('contact') }}> Get in touch </button>

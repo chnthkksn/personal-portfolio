@@ -63,7 +63,7 @@ function Projects() {
   };
 
   return (
-    <div className="h-[100vh] flex flex-col justify-center items-center  dark:bg-black" id='projects'>
+    <div className="pt-28 flex flex-col justify-center items-center  dark:bg-black" id='projects'>
       <h1 className="text-2xl lg:text-3xl text-center font-bold text-gray-500 dark:text-gray-400 mb-8 uppercase tracking-widest">Open Souce Projects</h1>
       <div>
         <button

@@ -4,7 +4,6 @@ import Reactjs from '../svgs/react'
 import Nodejs from '../svgs/node'
 import Tailwind from '../svgs/tailwind'
 import Mongo from '../svgs/mongo'
-import Express from '../svgs/express'
 import Firebase from '../svgs/firebase'
 import Git from '../svgs/git'
 import Python from '../svgs/python'
@@ -78,7 +77,7 @@ function skills() {
 
 
   return (
-    <div className="h-[100vh] flex flex-col justify-center items-center  dark:bg-black" id='skills'>
+    <div className="pt-28 flex flex-col justify-center items-center  dark:bg-black" id='skills'>
       <h1 className="text-2xl lg:text-3xl text-center font-bold text-gray-500 dark:text-gray-400 mb-8 uppercase tracking-widest"> Tech Stack </h1>
       <div className="flex flex-wrap gap-5 w-[80vw] md:w-[90%] min-h-[50vh] justify-center">
         {

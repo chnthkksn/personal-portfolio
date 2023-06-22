@@ -7,14 +7,16 @@ import scrollToElement from '../utils/scroll'
 import { useEffect, useState } from 'react';
 
 function Header() {
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
     const [menu, setMenu] = useState(false);
 
     useEffect(() => {
         if (theme === 'light') {
+            localStorage.setItem('theme', 'light');
             document.documentElement.classList.remove('dark');
             document.documentElement.classList.add('light');
         } else {
+            localStorage.setItem('theme', 'dark');
             document.documentElement.classList.remove('light');
             document.documentElement.classList.add('dark');
         }
@@ -42,9 +44,9 @@ function Header() {
             <div className='fixed w-full top-0 z-20'>
                 <div className='flex w-full flex-row items-center p-6 h-10 justify-between bg-white shadow-sm dark:bg-gray-900 dark:text-[#A5A5A5]'>
                     <div className='flex md:hidden'>
-                        <h1 className='text-black dark:text-white mr-16' onClick={() => { scrollToElement('about') }}> Chinthaka Kasun</h1>
+                        <h1 className='text-black dark:text-white mr-16 cursor-pointer' onClick={() => { scrollToElement('about') }}> Chinthaka Kasun</h1>
                         <div className='block md:hidden'>
-                            <ul className='flex gap-2 md:flex-col'>
+                            <ul className='flex gap-2 md:flex-col cursor-pointer'>
                                 <li onClick={() => { scrollToElement('about') }}> <FaUserAlt /> About</li>
                                 <li onClick={() => { scrollToElement('skills') }}> <FaLaptopCode /> Skills</li>
                                 <li onClick={() => { scrollToElement('education') }}> <FaBookOpen /> Education</li>
