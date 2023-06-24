@@ -34,7 +34,7 @@ function About() {
         <ul className="flex gap-3 justify-center mt-5 text-blue-500 text-xl">
           <li className="hover:text-blue-900"> <a href="https://github.com/chnthkksn" target="_blank" rel="noreferrer"> <FaGithub /> </a> </li>
           <li className="hover:text-blue-900"> <a href="https://twitter.com/chnthkksn" target="_blank" rel="noreferrer"> <FaTwitter /> </a> </li>
-          <li className="hover:text-blue-900"> <a href="https://t.me/chnthkksn" target="_blank" rel="noreferrer"> <FaTelegram /> </a> </li>
+          <li className="hover:text-blue-900"> <a href="https://t.me/its_chinth" target="_blank" rel="noreferrer"> <FaTelegram /> </a> </li>
           <li className="hover:text-blue-900"> <a href="https://www.linkedin.com/in/chnthkksn/" target="_blank" rel="noreferrer"> <FaLinkedin /> </a> </li>
           <li className="hover:text-blue-900"> <a href="mailto:chnthkksn@gmail.com" target="_blank" rel="noreferrer"> <FaEnvelope /> </a> </li>
         </ul>
