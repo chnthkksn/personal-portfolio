@@ -8,7 +8,7 @@ function Projects() {
   const projects = [
     {
       name: 'IMDB Api',
-      description: 'Simple python web scraper to scrape IMDB. This tool can get the following information',
+      description: 'Simple python web scraper to scrape IMDB. Also use FastAPI to create a REST API for the data.',
       tags: ['Python', 'API'],
       link: 'https://github.com/chnthkksn/imdb-api'
     },
